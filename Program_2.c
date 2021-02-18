@@ -13,7 +13,31 @@
 #include<stdio.h> 
 
 int main()
-{
+{int N, i;
+   printf("Enter the size of an array\n"); 
+   scanf("%d", &N);
+  int arraya[N];
+  int arrayb[N]; 
+  
+   //Read the Value of N using scanf statement
+ 
+   //Read the array elements using for loop and scanf statment
+   for(i=0;i<N;i++){
+     scanf("%d",&arraya[i]);
+   }
+   //Print the array elements in using printf statement
+   for(i=0;i<N;i++){
+      printf("%d\t",arraya[i]);
+    }
+    for(i=0;i<N;i++){
+      arrayb[i] = arraya[i];
+    }
+    printf("\n");
+   for(i=0;i<N;i++){
+      printf("%d\t",arrayb[i]);
+    }
+  
+
    //Declare all the variables[N, array a & array b, i] used in the code
    //Read the Value of N using scanf statement
    //Read the array elements using for loop and scanf statment
