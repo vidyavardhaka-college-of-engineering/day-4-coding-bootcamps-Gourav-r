@@ -22,9 +22,9 @@ int main()
   for(i=0;i<N;i++){
     sum=sum+array[i];
 
-    
+
   }
   //Print the sum of array elements which is stored in variable sum using printf statement
-  printf("%d",sum);
+  printf("The sum of elements in array is %d",sum);
   return 0;
 }
